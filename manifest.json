@@ -1,0 +1,37 @@
+{
+  "manifest_version": "0.3",
+  "name": "mcp-company-headcount-estimator",
+  "version": "1.0.0",
+  "description": "MCP server for Company Headcount Estimator. Employee count band for any company domain from the LinkedIn company size in Google results, Wikidata, and the company site, with the source and a confidence score. Never opens linkedin.com. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mambalabsdev/mcp-company-headcount-estimator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-company-headcount-estimator"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "build/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/build/index.js"
+      ],
+      "env": {
+        "APIFY_TOKEN": "${user_config.apify_token}"
+      }
+    }
+  },
+  "user_config": {
+    "apify_token": {
+      "type": "string",
+      "title": "Apify API Token",
+      "description": "Apify API token for running the actor",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

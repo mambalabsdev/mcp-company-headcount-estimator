@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-company-headcount-estimator": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-company-headcount-estimator"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

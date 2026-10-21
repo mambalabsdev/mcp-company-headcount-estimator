@@ -1,0 +1,31 @@
+{
+  "name": "mcp-company-headcount-estimator",
+  "displayName": "Company Headcount Estimator",
+  "version": "1.0.0",
+  "description": "MCP server for Company Headcount Estimator. Employee count band for any company domain from the LinkedIn company size in Google results, Wikidata, and the company site, with the source and a confidence score. Never opens linkedin.com. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-company-headcount-estimator",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "headcount",
+    "employee-count",
+    "company-size",
+    "apify",
+    "clay"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "headcount",
+    "employee-count",
+    "company-size",
+    "firmographics",
+    "lead-generation"
+  ],
+  "mcpServers": ".mcp.json"
+}
