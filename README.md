@@ -91,7 +91,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `company-estimated`, per row with an employee band | $0.035 | $0.03325 | $0.0315 | $0.02975 |
+| `company-estimated`, per row with an employee band | $0.036 | $0.0342 | $0.0324 | $0.0306 |
 | `apify-actor-start`, per run start (one per GB of run memory) | $0.0015 | $0.0015 | $0.0015 | $0.0015 |
 
 No data, invalid input, error, and cached rows are free.
