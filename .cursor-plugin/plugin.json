@@ -1,7 +1,7 @@
 {
   "name": "mcp-company-headcount-estimator",
   "displayName": "Company Headcount Estimator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Company Headcount Estimator. Employee count band for any company domain from the LinkedIn company size in Google results, Wikidata, and the company site, with the source and a confidence score. Never opens linkedin.com. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
